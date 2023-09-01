@@ -20,12 +20,12 @@ const Navbar = () => {
             
             <div onClick={handleClick} className={ `md:hidden absolute top-4 right-0 text-2xl px-2 `}>
               {
-                show == true? <FaBars/>:<GrClose/>
+                show == true?<GrClose/> : <FaBars/>
               }
             
             </div>
             {/* icon */}
-            <div className={`md:flex md:items-center xl:w-3/4 justify-end duration-500 ${show==true?'-left-[-100%]':'left-0'} md:static absolute left-0 w-full pl-5 md:pl-0  bg-[#FFF8ED] rounded md:rounded-none rounded-br-lg z-10 `}>
+            <div className={`md:flex md:items-center xl:w-3/4 justify-end duration-500 ${show?'left-0':'left-[-100%]'} md:static absolute left-0 w-full pl-5 md:pl-0 bg-[#FFF8ED] `}>
             <ul className="flex md:flex-row flex-col xl:gap-x-6  md:gap-x-3 gap-y-2">
               <li className="text-[#817382] capitalize font-bold font-Raleway hover:text-primary duration-300 cursor-pointer">home</li>
               <li className="text-[#817382] capitalize font-bold font-Raleway hover:text-primary duration-300 cursor-pointer">Our services</li>

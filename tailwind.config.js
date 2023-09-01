@@ -12,11 +12,15 @@ export default {
         'container':'1320px'
       },
       colors:{
-        'primary':'#F95C19'
+        'primary':'#F95C19',
+        'secondary':'#464558',
       },
       fontFamily:{
         'Oxanium':['Oxanium', 'sans-serif'],
         'Raleway':['Raleway', 'sans-serif']
+      },
+      backgroundImage:{
+        'banner-bg':'url(./assets/images/Nav&Banner/banner image.png)',
       }
     },
   },
