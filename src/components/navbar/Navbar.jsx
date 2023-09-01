@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav className="navbar-bg relative">
         <div className="max-w-container mx-auto md:py-4 py-1 px-4 md:px-3 xl:px-0">
           <div className=" md:flex md:items-center">
-            <div className="md:w-1/4 mb-5 md:mb-3 ">
+            <div className="md:w-1/4 mb-5 md:mb-3">
               <img src={logo} alt="logo" />
             </div>
             {/* icon */}
@@ -26,13 +26,13 @@ const Navbar = () => {
             </div>
             {/* icon */}
             <div className={`md:flex md:items-center xl:w-3/4 justify-end duration-500 ${show?'left-0':'left-[-100%]'} md:static absolute left-0 w-full pl-5 md:pl-0 bg-[#FFF8ED] z-10`}>
-            <ul className="flex md:flex-row flex-col xl:gap-x-6  md:gap-x-3 gap-y-2">
+            <ul className="flex md:flex-row flex-col  md:gap-x-3 lg:gap-x-6 gap-y-2">
               <li className="text-[#817382] capitalize font-bold font-Raleway hover:text-primary duration-300 cursor-pointer">home</li>
               <li className="text-[#817382] capitalize font-bold font-Raleway hover:text-primary duration-300 cursor-pointer">Our services</li>
               <li className="text-[#817382] capitalize font-bold font-Raleway hover:text-primary duration-300 cursor-pointer">About Us</li>
               <li className="text-[#817382] capitalize font-bold font-Raleway hover:text-primary duration-300 cursor-pointer">What’s new?</li>
             </ul>
-            <div className="xl:ml-[45px] md:ml-2 hidden md:block md:static absolute -top-1 right-8  scale-[.6] md:scale-100">
+            <div className="lg:ml-[45px] md:ml-2 hidden md:block md:static absolute -top-1 right-8  scale-[.6] md:scale-100">
               <img src={search} alt="search" />
             </div>
             <div className="mt-3 md:mt-0 pb-5 md:pb-0">
