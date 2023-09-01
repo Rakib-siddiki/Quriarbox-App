@@ -1,11 +1,16 @@
 import bannerImg from '../../assets/images/Nav&Banner/banner image.png'
+import couldShape from '../../assets/images/Nav&Banner/cloudShape.png'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Banner = () => {
   return (
     <>
       <section className="max-w-container mx-auto">
-        <div className="flex py-6 px-5 md:p-0">
+        
+        <div className="flex py-6 px-5 md:p-0 relative">
+            {/* shape  */}
+        <img className='hidden md:block absolute top-[496px] -right-16' src={couldShape} alt="..." />
+        {/* shape  */}
           {/* left part start */}
           <div className=" w-2/5 xl:mt-52 md:py-16">
             <div className="md:ml-5 xl:m-0 md:mt-10">

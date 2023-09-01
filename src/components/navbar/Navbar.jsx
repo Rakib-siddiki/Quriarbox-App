@@ -25,7 +25,7 @@ const Navbar = () => {
             
             </div>
             {/* icon */}
-            <div className={`md:flex md:items-center xl:w-3/4 justify-end duration-500 ${show?'left-0':'left-[-100%]'} md:static absolute left-0 w-full pl-5 md:pl-0 bg-[#FFF8ED] `}>
+            <div className={`md:flex md:items-center xl:w-3/4 justify-end duration-500 ${show?'left-0':'left-[-100%]'} md:static absolute left-0 w-full pl-5 md:pl-0 bg-[#FFF8ED] z-10`}>
             <ul className="flex md:flex-row flex-col xl:gap-x-6  md:gap-x-3 gap-y-2">
               <li className="text-[#817382] capitalize font-bold font-Raleway hover:text-primary duration-300 cursor-pointer">home</li>
               <li className="text-[#817382] capitalize font-bold font-Raleway hover:text-primary duration-300 cursor-pointer">Our services</li>
