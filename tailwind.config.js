@@ -22,6 +22,7 @@ export default {
       },
       backgroundImage:{
         'banner-bg':'url(./assets/images/Nav&Banner/banner image.png)',
+        'delivery-bg':'url(./assets/images/delivery/delivery.png)',
       }
     },
   },
