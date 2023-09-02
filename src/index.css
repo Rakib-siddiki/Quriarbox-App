@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-#root{
-    background: var(--soft-colors-background, linear-gradient(180deg, #FFF7E7 0%, #FFF1DC 100%));
+#root {
+  background: var(
+    --soft-colors-background,
+    linear-gradient(180deg, #fff7e7 0%, #fff1dc 100%)
+  );
 }
-.navbar-bg{
-    background: radial-gradient(9917.17% 140.83% at 0.83% 0%, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.15) 100%);
-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05); 
+.navbar-bg {
+  background: radial-gradient(
+    9917.17% 140.83% at 0.83% 0%,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
 }
