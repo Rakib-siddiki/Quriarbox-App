@@ -1,6 +1,7 @@
 import Banner from "./components/banner/Banner";
 import Client from "./components/client/Client";
 import Delivery from "./components/delivery/Delivery";
+import Form from "./components/form/Form";
 import Navbar from "./components/navbar/Navbar";
 import Service from "./components/service/Service";
 import Testimonial from "./components/testimonial/Testimonial";
@@ -14,6 +15,7 @@ const App = () => {
       <Client />
       <Delivery />
       <Testimonial />
+      <Form/>
     </>
   );
 };
