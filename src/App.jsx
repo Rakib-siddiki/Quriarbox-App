@@ -3,6 +3,7 @@ import Client from "./components/client/Client";
 import Delivery from "./components/delivery/Delivery";
 import Navbar from "./components/navbar/Navbar";
 import Service from "./components/service/Service";
+import Testimonial from "./components/testimonial/Testimonial";
 
 const App = () => {
   return (
@@ -10,8 +11,9 @@ const App = () => {
       <Navbar />
       <Banner />
       <Service />
-      <Client/>
-      <Delivery/>
+      <Client />
+      <Delivery />
+      <Testimonial />
     </>
   );
 };
