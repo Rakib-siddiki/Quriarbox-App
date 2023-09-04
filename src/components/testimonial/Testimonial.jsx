@@ -19,17 +19,17 @@ const Testimonial = () => {
                 <div>
                   <img src={qoute} alt="" />
                 </div>
-                <div className="xl:ml-[38px] ml-8 text-center">
+                <div className="xl:ml-[38px] ml-4 sm:ml-8 text-center">
                   <h2 className="font-Raleway xl:text-3xl text-2xl font-bold text-primary">
                     TESTIMONIAL
                   </h2>
-                  <p className="font-Raleway font-bold sm:font-extrabold  text-xl sm:text-2xl lg:text-[40px] text-[#11111D]">
+                  <p className="font-Raleway font-bold sm:font-extrabold  text-sm  sm:text-2xl lg:text-[40px] text-[#11111D]">
                     Our Awesome Clients
                   </p>
                 </div>
               </div>
               {/* =============================== */}
-              <div className="bg-white rounded-2xl lg:px-10 lg:py-8 p-6 ">
+              <div className="bg-white rounded-2xl lg:px-10 lg:py-8 p-6 mt-2 sm:m-0 ">
                 <h2 className="font-Raleway font-bold text-2xl text-primary">
                   Fantastic service!
                 </h2>

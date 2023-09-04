@@ -15,7 +15,7 @@ const App = () => {
       <Client />
       <Delivery />
       <Testimonial />
-      <Form/>
+      <Form />
     </>
   );
 };
