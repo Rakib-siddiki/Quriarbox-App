@@ -5,7 +5,7 @@ import personalService from "../../assets/images/service/personalService-icon.sv
 const Service = () => {
   return (
     <>
-      <section className="xl:pt-40 xl:pb-0 py-10 px-2 xl:px-0">
+      <section className="xl:pt-32 xl:pb-0 py-10 px-2 xl:px-0">
         {/* title  */}
         <div className="text-center">
           <h3 className="font-Oxanium font-bold xl:text-3xl text-primary">
