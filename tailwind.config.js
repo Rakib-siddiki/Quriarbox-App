@@ -14,7 +14,9 @@ export default {
       colors:{
         'primary':'#F95C19',
         'secondary':'#464558',
+        'third':'#222132',
         'card-p':'#7B7A8B'
+        
       },
       fontFamily:{
         'Oxanium':['Oxanium', 'sans-serif'],

@@ -59,7 +59,7 @@ const Testimonial = () => {
                   </div>
                   <div className="sm:flex gap-x-3 items-center">
                     <div>
-                      <h6 className="font-Raleway text-base font-semibold text-[#222132] sm:text-right">
+                      <h6 className="font-Raleway text-base font-semibold text-third sm:text-right">
                         Yves Tanguy
                       </h6>
                       <p className="font-Raleway font-normal text-base text-[#464558]">
