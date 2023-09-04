@@ -4,7 +4,7 @@ import { FaRegPaperPlane } from "react-icons/fa";
 const Form = () => {
   return (
     <>
-      <section className="max-w-container mx-auto xl:pb-40 pb-20 md:pb-28">
+      <section className="max-w-container mx-auto xl:pb-40 pb-6 sm:pb-16 md:pb-18">
         <div className="grid  sm:grid-cols-12 p-4 sm:p-0">
           <div className="sm:col-start-3 sm:col-span-8 sm:col-end-11">
             <div className="flex">
