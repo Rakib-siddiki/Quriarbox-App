@@ -1,8 +1,7 @@
-# React + Vite
+Here are some additional details about Quriar Box:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Quriar Box is a courier app that allows users to book and track deliveries.
+    It is available on both Android and iOS devices.
+    The app offers a variety of delivery options, including same-day, next-day, and standard shipping.
+    Users can also track their deliveries in real time using the app's GPS tracking feature.
+    Quriar Box is a convenient and affordable way to send and receive packages.
