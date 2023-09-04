@@ -18,8 +18,8 @@ const App = () => {
       <Delivery />
       <Testimonial />
       <Form />
-      <FindUs/>
-      <GetUpdate/>
+      <FindUs />
+      <GetUpdate />
     </>
   );
 };

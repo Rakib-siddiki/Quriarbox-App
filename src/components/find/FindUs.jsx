@@ -13,7 +13,7 @@ import {
 const FindUs = () => {
   return (
     <>
-      <section className="xl:pt-[169] xl:pb-28 pb-24 md:pb-20">
+      <section className="xl:pt-[169] xl:pb-28 pb-10 sm:pb-24 md:pb-20">
         <div className="p-5 xl:p-0">
           <div className="text-center">
             <h2 className="font-Oxanium font-bold text-xl  sm:text-3xl text-primary">
