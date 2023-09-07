@@ -37,7 +37,7 @@ const Form = () => {
                     placeholder="Email"
                   />
                   <textarea
-                    className="bg-transparent text-third border border-[#C5C5D2] rounded-lg xl:py-4 lg:py-3 lg:pl-5  py-2 pl-3 placeholder:font-Raleway text-sm md:text-base sm:placeholder:text-base placeholder:text-[#9291A1] focus:border-2 focus:outline-none h-16 sm:h-28 md:h-32 lg:h-[154px] "
+                    className="  bg-transparent text-third border border-[#C5C5D2] rounded-lg xl:py-4 lg:py-3 lg:pl-5  py-2 pl-3 placeholder:font-Raleway text-sm md:text-base sm:placeholder:text-base placeholder:text-[#9291A1] focus:border-2 focus:outline-none h-16 sm:h-28 md:h-32 lg:h-[154px] "
                     placeholder="Message"
                     type="text"
                   ></textarea>

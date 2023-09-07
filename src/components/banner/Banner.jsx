@@ -1,4 +1,4 @@
-import bannerImg from "../../assets/images/Nav&Banner/banner image.png";
+import bannerImg from "../../assets/images/Nav&Banner/banner-image.png";
 import couldShape from "../../assets/images/Nav&Banner/cloudShape.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -15,7 +15,7 @@ const Banner = () => {
           />
           {/* shape  */}
           {/* left part start */}
-          <div className=" w-2/5 xl:mt-52 md:py-16">
+          <div className=" w-2/5 xl:mt-44 md:py-16">
             <div className="md:ml-5 xl:m-0 md:mt-10">
               <h1 className="w-52 text-xl sm:text-2xl sm:w-60 md:w-80 md:text-3xl  xl:w-[500px] xl:text-[49px] font-Raleway font-extrabold xl:leading-[58px] text-[#261134] ">
                 <span className="font-normal ">A trusted provider of</span>{" "}
@@ -38,9 +38,9 @@ const Banner = () => {
           </div>
           {/* left part end */}
           {/* right part start */}
-          <div className=" md:w-4/5 md:py-16  xl:mt-[170px] bg-banner-bg sm:bg-none bg-center bg-contain bg-no-repeat w-full h-vh">
+          <div className=" md:w-4/5 md:py-16  xl:mt-36 bg-banner-bg sm:bg-none bg-center bg-contain bg-no-repeat w-full h-vh">
             <img
-              className=" hidden sm:block"
+              className="hidden sm:block"
               src={bannerImg}
               alt="banner-image"
             />
